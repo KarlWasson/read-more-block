@@ -1,0 +1,64 @@
+{
+	"apiVersion": 2,
+	"name": "read-more-plugin/read-more-block",
+	"version": "0.1.0",
+	"title": "Custom Read More",
+	"category": "design",
+	"icon": "money",
+	"keywords": [ "read", "more", "read more","learn more" ],
+	"description": "A read more block",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "read-more-block",
+	"styles": [
+		{
+			"name": "default",
+			"label": "Default",
+			"isDefault": true
+		},
+		{
+			"name": "outline",
+			"label": "Outline"
+		},
+		{
+			"name": "rounded",
+			"label": "Rounded"
+		}
+	],
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"linkText": {
+			"type": "string"
+		},
+		"align": {
+			"type": "string",
+			"default": "none"
+		},
+		"backgroundColor": {
+			"type": "string"
+		},		
+		"textColor": {
+			"type": "string"
+		},
+		"readMoreLink": {
+			"type": "string",
+			"default": ""
+		},
+		"linkLabel": {
+			"type": "string",
+			"default": "Check it out!"
+		},
+		"hasLinkNofollow": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

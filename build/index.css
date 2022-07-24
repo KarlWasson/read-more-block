@@ -1,0 +1,21 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+.wp-block-my-read-more-plugin-my-read-more-block {
+  padding: 12px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 0px;
+}
+.wp-block-my-read-more-plugin-my-read-more-block.is-style-default {
+  border: 0;
+}
+.wp-block-my-read-more-plugin-my-read-more-block.is-style-outline {
+  border: 1px solid currentColor;
+}
+.wp-block-my-read-more-plugin-my-read-more-block.is-style-rounded {
+  border: 1px solid currentColor;
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=index.css.map*/
